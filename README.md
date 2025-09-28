@@ -1,36 +1,8 @@
-# Rsbuild project
+# Rsbuild pnpm yarn diff demo
 
-## Setup
-
-Install the dependencies:
+当前 yarn 安装依赖后的打包产物已经提交，pnpm.lock 为使用 `pnpm import` 生成，执行以下命令，即可查看 pnpm 安装依赖后的打包产物：
 
 ```bash
 pnpm install
-```
-
-## Get started
-
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
 pnpm build
 ```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
-
-## Learn more
-
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!

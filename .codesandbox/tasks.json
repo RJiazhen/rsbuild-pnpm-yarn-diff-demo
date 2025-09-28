@@ -1,9 +1,21 @@
 {
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "pnpm install",
+      "name": "Installing Dependencies"
+    },
+    {
+      "command": "pnpm build",
+      "name": "p"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "dev": {
       "name": "pnpm build",
-      "command": "pnpm install && pnpm build", // 替换为你的目标命令
-      "runOnCreate": true // 关键：设置为 true 表示项目打开时自动执行
+      "command": "pnpm install && pnpm build"
     }
   }
 }

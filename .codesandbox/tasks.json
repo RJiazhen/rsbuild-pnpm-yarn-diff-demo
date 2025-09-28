@@ -1,7 +1,7 @@
 {
   "tasks": {
-    "start": {
-      "name": "Start Dev Server",
+    "dev": {
+      "name": "pnpm build",
       "command": "pnpm install && pnpm build", // 替换为你的目标命令
       "runOnCreate": true // 关键：设置为 true 表示项目打开时自动执行
     }
